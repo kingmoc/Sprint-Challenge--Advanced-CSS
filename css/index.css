@@ -1,3 +1,13 @@
+@keyframes swipe {
+  0% {
+    left: -500px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -150,9 +160,13 @@ h1 {
 }
 h2 {
   font-size: 3.2rem;
+  position: relative;
+  animation: swipe 0.3s ease-in 0.5ms 1 normal none;
 }
 h3 {
   font-size: 2.8rem;
+  position: relative;
+  animation: swipe 0.3s ease-in 1.5s 1 normal none;
 }
 p {
   font-size: 1.6rem;
