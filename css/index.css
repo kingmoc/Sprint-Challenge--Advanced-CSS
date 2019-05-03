@@ -167,7 +167,7 @@ img {
   margin: 0 auto;
 }
 .nav-menu {
-  background: #f6f6f6;
+  background-color: rgba(245, 245, 245, 0.85);
   text-align: center;
   position: fixed;
   top: 0;
@@ -209,6 +209,7 @@ footer {
 }
 .home .intro img {
   border-radius: 10px;
+  margin-top: 94px;
   max-width: 100%;
 }
 .home .space-images {
