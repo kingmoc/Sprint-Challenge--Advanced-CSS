@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+**An adaptive website is built for specific mediums.  For example, an adaptive website may be set to display a certain way for screen x or screen y.  But, for a responsive site the idea is that your website would be displayed properly across ALL devices.**
+
 2. Describe what it means to be mobile first vs desktop first.
+
+**Mobile first is the concept that your website is designed to display properly within a mobile view first.  You then build continuously as your screen size increases.  Desktop first is just the opposite in that you build from the desktop view first and then adapt the build as the screen decreases.**
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+**This basically uses the power of ten when it comes to setting the font size.  Rem units are by default set to 16px.  In order to properly track the font you’re using you must set the html tag to 62.5%.  If you do the math 62.5% of 16 is equal to 10.  It makes 1rem equal to 10px.**
+
 4. How would you describe preprocessing to someone new to CSS?
 
+**Think of a preprocessor as a layer that goes over top of your CSS.  This layer comes with many cool features because not only will this layer let you continue to program in CSS, it will also allow other properties.  For example, one can now use variables, math and most importantly nesting.  Nesting allows you to group selectors logically which gives better organization to your code.  Further the layer also gives you power to import other “layer files” into your CSS.  Lastly this layer will allow you to compile all this “new code” and in return you get 1 nice preprocessed CSS file that you’ll import via html.** 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+**I personally love the nesting feature.  It makes your css (or .less file) more readable and coherent.  I like the escapes and mixins have great value.  I would say some of the function writing and complex animation mixins.**   
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
