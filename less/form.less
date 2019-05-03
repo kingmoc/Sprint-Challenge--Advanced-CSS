@@ -1,0 +1,85 @@
+.reg-page-wrapper {
+
+	max-width: 800px;
+	width: 100%;
+	padding-bottom: 75px;
+	margin: 120px auto;
+	
+	h2 {
+		margin-top: 20px;
+	}
+
+	@media @phone {
+		width: 90%;
+		margin: 110px auto;
+	}
+	
+	@media @smallPhone {
+        margin-top: 255px;
+      }
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 6px 6px 6px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	margin: 25px 0;
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 50%;
+	font-size: 16px;
+
+	&:hover {
+	background-color: #45a049;
+	}
+}
+
+.btn {
+	text-align: center;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+	font-size: 1.5em;
+  }
+  
+  .col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+  }
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  .col-25, .col-75, input[type=submit] {
+
+	@media @phone {
+		width: 100%;
+    	margin-top: 0;
+	}
+  }
+
+//   footer {
+// 	position: absolute;
+// 	bottom:0;
+//   }
+}

@@ -16,6 +16,14 @@
       .border-radius (@radius: 10px);
       margin-top: 94px;
       max-width: 100%;
+
+      @media @phone {
+        margin-top: 106.5px;
+      }
+
+      @media @smallPhone {
+        margin-top: 255px;
+      }
     }
   
   }
@@ -90,6 +98,10 @@
 
       p {
         margin-bottom: 26px;
+      }
+
+      a {
+        text-decoration: none;
       }
 
       .btn {
